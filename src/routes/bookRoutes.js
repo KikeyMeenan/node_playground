@@ -29,11 +29,6 @@ var router = function(nav)
     bookRouter.route('/')
         .get(function(req, res)
         {
-            var request = new sql.Request();
-
-            request.query('select * from Books', function(err, recordSet){
-                console.log(recordSet);
-            });
             res.render('bookListView',
             {
                 title: 'Books',

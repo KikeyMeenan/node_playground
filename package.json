@@ -16,6 +16,7 @@
     "gulp": "^3.9.1",
     "jade": "^1.11.0",
     "jshint": "^2.9.3",
+    "mongodb": "^2.2.9",
     "mssql": "^3.3.0"
   },
   "devDependencies": {
